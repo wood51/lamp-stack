@@ -20,9 +20,5 @@ RUN a2enmod rewrite
 # Activation du site SSL par défaut
 RUN a2ensite default-ssl
 
-# Copie de la configuration SSL personnalisée
-# COPY ./conf/apache2/default-ssl.conf /etc/apache2/sites-available/default-ssl.conf
-# COPY ./conf/php/php.ini-development /usr/local/etc/php/php.ini
-
 # Commande de démarrage
 CMD ["apache2-foreground"]

@@ -11,7 +11,7 @@ set CERT_DIR=certs
 :: Vérifier si mkcert est installé
 where mkcert >nul 2>&1
 if %errorlevel% neq 0 (
-    echo "mkcert n'est pas installé. Installe-le avec 'choco install mkcert'."
+    echo "mkcert n'est pas installé. Installer-le avec 'choco install mkcert'."
     exit /b
 )
 
