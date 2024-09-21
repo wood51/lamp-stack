@@ -1,4 +1,4 @@
-# Mon Projet - Stack Docker avec Fat-Free Framework (F3), MariaDB, Redis, et Apache
+# lamp-stack - Stack Docker avec Fat-Free Framework (F3), MariaDB, Redis, et Apache
 
 ## Description
 
